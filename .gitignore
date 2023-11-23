@@ -1,0 +1,58 @@
+# Carpeta bin y obj generadas por la compilación
+bin/
+obj/
+
+# Archivos de configuración
+*.user
+*.suo
+*.config
+Web.config
+
+# Archivos de salida de Visual Studio
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Ll]og/
+[Ll]ogs/
+
+# Archivos temporales
+[Tt]humbs.db
+[Tt]estResults/
+
+# Carpeta de configuración de ReSharper
+_ReSharper.*
+
+# Carpeta Suo de Visual Studio
+*.suo
+
+# Archivos de proyecto
+*.csproj.user
+*.csproj.vspscc
+.vscode/
+.vs/
+*.nupkg
+*.pfx
+
+# Logs y bases de datos
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.pdb
+
+# Archivos de compilación
+*.dll
+*.exe
+*.tmp
+*.o
+*.so
+*.cache
+*.log
+*.swp

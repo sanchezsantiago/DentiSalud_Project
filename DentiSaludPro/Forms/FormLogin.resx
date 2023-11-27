@@ -121,9 +121,8 @@
   <data name="btnMinimize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DAAACwwBP0AiyAAAAI5JREFUSEvt1csNg0AQA9ClFWpJGgmfglIHdBGiNIEoJdi3FZpZMHAcS+8EXosL
-        myJXUkEPX5hPYK8FnuOmg/8NGnDzA6uk4he5WcAqqXiOmxjZihFJjEikkTfUB/C9vCeNDPCERwGfj5D3
-        pJGziiP8e1ol1Qfc8MKxSqoXuOGNxqEJrJtvD3vFCyuyk5RWZe9GghkR0foAAAAASUVORK5CYII=
+        DAAACwwBP0AiyAAAAFJJREFUSEtjGAWjYBSMYMABxAZAbEwBBukHmYMVaALxOyD+TwX8FohB5mGAEiDG
+        poFcDDIPA4BsBrkAmwZS8Rsg1gBirIDmcTIKRsEoGN6AgQEAwUFA5ZlPTrsAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="btnClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

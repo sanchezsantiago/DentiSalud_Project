@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
-            panel1 = new Panel();
             btnMinimize = new PictureBox();
             btnClose = new PictureBox();
             panel2 = new Panel();
@@ -39,25 +38,12 @@
             label2 = new Label();
             label3 = new Label();
             btnLogin = new Button();
-            panel1.SuspendLayout();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)btnMinimize).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnClose).BeginInit();
             panel2.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(75, 211, 216);
-            panel1.Controls.Add(btnMinimize);
-            panel1.Controls.Add(btnClose);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(437, 24);
-            panel1.TabIndex = 2;
-            panel1.MouseDown += panel1_MouseDown;
-            panel1.MouseMove += panel1_MouseMove;
-            panel1.MouseUp += panel1_MouseUp;
             // 
             // btnMinimize
             // 
@@ -65,10 +51,10 @@
             btnMinimize.BackgroundImageLayout = ImageLayout.Zoom;
             btnMinimize.Cursor = Cursors.Hand;
             btnMinimize.Image = (Image)resources.GetObject("btnMinimize.Image");
-            btnMinimize.Location = new Point(389, 0);
+            btnMinimize.Location = new Point(387, 6);
             btnMinimize.Margin = new Padding(0);
             btnMinimize.Name = "btnMinimize";
-            btnMinimize.Size = new Size(25, 24);
+            btnMinimize.Size = new Size(25, 18);
             btnMinimize.TabIndex = 4;
             btnMinimize.TabStop = false;
             btnMinimize.Click += btnMinimize_Click;
@@ -78,7 +64,7 @@
             btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             btnClose.Cursor = Cursors.Hand;
             btnClose.Image = (Image)resources.GetObject("btnClose.Image");
-            btnClose.Location = new Point(414, 0);
+            btnClose.Location = new Point(412, 0);
             btnClose.Margin = new Padding(0);
             btnClose.Name = "btnClose";
             btnClose.Size = new Size(25, 24);
@@ -147,7 +133,21 @@
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // panel1
+            // 
+            panel1.BackColor = Color.WhiteSmoke;
+            panel1.Controls.Add(btnMinimize);
+            panel1.Controls.Add(btnClose);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(437, 24);
+            panel1.TabIndex = 2;
+            panel1.MouseDown += panel1_MouseDown;
+            panel1.MouseMove += panel1_MouseMove;
+            panel1.MouseUp += panel1_MouseUp;
+            // 
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -164,21 +164,20 @@
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Form1";
+            Name = "FormLogin";
             RightToLeft = RightToLeft.No;
             ShowInTaskbar = false;
             Text = "DentiSaludPro";
             Load += Form1_Load;
-            panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)btnMinimize).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnClose).EndInit();
             panel2.ResumeLayout(false);
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Panel panel1;
         private PictureBox btnClose;
         private PictureBox btnMinimize;
         private Panel panel2;
@@ -188,5 +187,6 @@
         private Label label2;
         private Label label3;
         private Button btnLogin;
+        private Panel panel1;
     }
 }

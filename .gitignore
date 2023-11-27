@@ -46,6 +46,7 @@ _ReSharper.*
 *.sqlite3
 *.db
 *.pdb
+*.sql
 
 # Archivos de compilación
 *.dll
